@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Home Page</title>
+    
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awasome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body class="sidebar-hidden">
+    <div class="container">
+        <!-- navbar / header -->
+        <header>
+            <nav class="navbar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="logo-img/logo-1.jpg" alt="logo" class="logo-image">
+                        <h2 class="logo-text">JYTube</h2>
+                    </a>
+                </div>
+                <div class="nav-section nav-center">
+                    <form action="#" class="search-form">
+                        <input type="search" placeholder="Search" required
+                        class="search-input">
+                        <button class="nav-button search-button">
+                            <i class="fa-solid fa-search"></i>
+                        </button>
+                    </form>
+                    <button class="nav-button mic-button">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                </div>
+                <div class="nav-section nav-right">
+                    <input type="search" placeholder="Search" required
+                        class="search-input">
+                    <button class="nav-button search-button">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                    <button class="nav-button theme-button">
+                        <!-- <i class="fa-solid fa-sun"></i> -->
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <img src="images/my-anime-pic.jpeg" alt="user-image" class="user-image">
+                </div>
+            </nav>
+        </header>
+        <!-- navbar / header - end -->
+
+        <main class="main-layout">
+            <div class="screen-overlay"></div>
+
+            <!-- sidebar -->
+             <aside class="sidebar">
+                <div class="nav-section nav-left">
+                    <button class="nav-button menu-button">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <a href="#" class="nav-logo">
+                        <img src="logo-img/logo-1.jpg" alt="logo" class="logo-image">
+                        <h2 class="logo-text">JYTube</h2>
+                    </a>
+                </div>
+                <div class="link-container">
+                    <div class="link-section">
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-home"></i> Home
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-video"></i> Shorts
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-ticket"></i> Subscription
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                            <h4 class="sectin-title">You</h4>
+                            <a href="#" class="link-item">
+                                <i class="fa-solid fa-id-card"></i> Your Channel
+                            </a>
+                            <a href="#" class="link-item">
+                                <i class="fa-solid fa-history"></i> History
+                            </a>
+                            <a href="#" class="link-item">
+                                <i class="fa-solid fa-clock"></i> Watch later
+                            </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="sectin-title">Explore</h4>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-fire"></i> Tranding
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-music"></i> Music
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-regular fa-futbol"></i> Gaming
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-trophy"></i> Sports
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                    <div class="link-section">
+                        <h4 class="sectin-title">More From YouTube</h4>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-shield-heart"></i> YouTube Plus
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-headphones"></i> YouTube Music
+                        </a>
+                        <a href="#" class="link-item">
+                            <i class="fa-solid fa-children"></i> YouTube Kids
+                        </a>
+                    </div>
+                    <div class="section-separator"></div>
+
+                <div class="link-section">
+                    <a href="#" class="link-item">
+                        <i class="fa-solid fa-gear"></i> Setting
+                    </a>
+                    <a href="#" class="link-item">
+                        <i class="fa-solid fa-bug"></i> Report
+                    </a>
+                    <a href="#" class="link-item">
+                        <i class="fa-regular fa-circle-question"></i> Help
+                    </a>
+                    <a href="#" class="link-item">
+                        <i class="fa-solid fa-triangle-exclamation"></i> Feedback
+                    </a>
+                </div>
+            <div class="section-separator"></div>
+                </div>
+             </aside>
+
+             <div class="content-wrapper">
+                <!-- category - list -->
+                <div class="category-list">
+                    <button class="category-button active">All</button>
+                    <button class="category-button">Exccel</button>
+                    <button class="category-button">Word</button>
+                    <button class="category-button">Power-Point</button>
+                    <button class="category-button">C</button>
+                    <button class="category-button">C++</button>
+                    <button class="category-button">Python</button>
+                    <button class="category-button">HTML</button>
+                    <button class="category-button">HTML-Tag</button>
+                    <button class="category-button">HTML-Website</button>
+                    <button class="category-button">CSS</button>
+                    <button class="category-button">CSS-Tag</button>
+                    <button class="category-button">CSS-Website</button>
+                    <button class="category-button">Java-Script</button>
+                    <button class="category-button">Java-Script-Website</button>
+                    <button class="category-button">Website</button>                    
+                </div>
+
+                <!-- Video - list -->
+                <div class="video-list">
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="video-card">
+                        <div class="thumbnail-container">
+                            <img src="https://th.bing.com/th/id/OIP.JBGDN5-VN4YFETArMGJSsAAAAA?rs=1&pid=ImgDetMain" 
+                            alt="thumbnail" class="thumbnail">
+                            <p class="duration">10:03</p>
+                            <div class="video-info">
+                                <img src="logo-img/logo-1.jpg" alt="Channel-logo" class="icon">
+                                <div class="video details">
+                                    <h2 class="title">Top 10 Easy To Create JavaScript Games For Beginners</h2>
+                                    <p class="channel-name">JithanCoder</p>
+                                    <p class="views">10K Views • 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+             </div>
+        </main>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
